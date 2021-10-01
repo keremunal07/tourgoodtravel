@@ -3718,6 +3718,12 @@ h3 {
 .modal {
   padding-top:150px;
 }
+@media (max-width:768px) {
+  .modal {
+    padding-top:80px;
+  }
+  
+}
 .modal-content {
   margin:auto;
   padding:40px;
