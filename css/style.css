@@ -2088,7 +2088,9 @@ h3 {
 .bradcam_bg_6 {
   background-image: url(../img/sea-tours/kekova-boat/3.jpg);
 }
-
+.bradcam_bg_7 {
+  background-image: url(../img/alternative-tours/microlight/4.jpg);
+}
 /* line 13, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
@@ -3692,6 +3694,14 @@ h3 {
   font-size: 13px;
   background: rgba(255, 255, 255, 0.34);
 }
+.form-contact .form-control-spec {
+  border: 1px solid #8f9195;
+  border-radius: 0px;
+  height: 48px;
+  padding-left: 18px;
+  font-size: 13px;
+  background: #fff;
+}
 
 /* line 69, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_contact.scss */
 .form-contact .form-control:focus {
@@ -3703,6 +3713,10 @@ h3 {
 .form-contact .form-control::placeholder {
   font-weight: 300;
   color: #fff;
+}
+.form-contact .form-control-spec::placeholder {
+  font-weight: 300;
+  color: #000;
 }
 
 /* line 80, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_contact.scss */
