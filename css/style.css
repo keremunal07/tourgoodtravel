@@ -3720,7 +3720,7 @@ h3 {
 }
 @media (max-width:768px) {
   .modal {
-    padding-top:80px;
+    padding-top:0;
   }
   
 }
