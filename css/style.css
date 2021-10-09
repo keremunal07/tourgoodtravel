@@ -853,7 +853,7 @@ h3 {
 .header-area .main-header-area {
   background: #fff;
   background: transparent;
-  padding: 25px 100px 25px 35px;
+  padding: 15px 100px 15px 10px;
 }
 
 /* line 21, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
@@ -1254,7 +1254,7 @@ h3 {
   bottom: 0;
   z-index: 9;
   background: #FF4A52;
-  width: 50px;
+  width: 75px;
 }
 .header-area .logo img {
   width:275px;
@@ -1263,22 +1263,22 @@ h3 {
 @media (max-width: 767px) {
   /* line 324, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
   .header-area .seach_icon {
-    width: 40px;
+    width: 50px;
     right: 60px;
   }
   .header-area .seach_icon img {
-    width:20px;
-    height:15px
+    width:25px;
+
   }
   .header-area .logo img {
-    width:200px;
+    width:210px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 324, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
   .header-area .seach_icon {
-    width: 60px;
+    width: 75px;
     right: 85px;
   }
 }
@@ -1303,7 +1303,7 @@ h3 {
 .header-area .seach_icon a i {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
 }
 
@@ -3149,7 +3149,7 @@ h3 {
 }
 .language {
   width:30px;
-  height:20px;
+
 }
 
 .owl-carousel .item img {
@@ -3723,6 +3723,30 @@ h3 {
 .form-contact textarea {
   border-radius: 0px;
   height: 100% !important;
+}
+
+.footer-whatsappSupport {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  border-radius: 100%;
+  background-color: #25d366;
+  font-size: 28px;
+  z-index: 100;
+}
+@media (max-width:450px) {
+  .footer-whatsappSupport {
+    right:20px;
+  }
+}
+.footer-whatsappSupport:hover {
+text-decoration: none;
+}
+.wp-icon {
+  font-size:40px;
 }
 
 /*=================== contact form end ====================*/
