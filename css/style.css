@@ -834,6 +834,22 @@ h3 {
   z-index: 9;
   position: relative;
 }
+.header-area .seach_icon .language-text {
+  font-size:11px;
+  color:White;
+
+}
+.header-area .seach_icon .language-element {
+  position:relative;left:0;bottom:28px;
+}
+@media (max-width:768px) {
+  .header-area .seach_icon .language-text {
+    font-size:0.55em;
+  }
+  .header-area .seach_icon .language-element {
+    left:0;bottom:20px;
+  }
+}
 
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */

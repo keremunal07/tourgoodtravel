@@ -87,10 +87,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="seach_icon">
-                                    <a class="d-flex justify-content-center" data-toggle="modal" data-target="#exampleModalCenter" href="#">
-                                            <img class="language m-auto" src="img/language/en/english.png" alt="">
+                                <div class="seach_icon position-absolute">
+                                    <a class="" data-toggle="modal" data-target="#exampleModalCenter" href="#">
+                                        <i style="font-size:25px;" class="fas fa-globe"></i>
                                     </a>
+                                    <div class="language-element" class="position-relative">
+                                        <a class="language-text" href='#' data-toggle="modal" data-target="#exampleModalCenter">LANGUAGE</a>
+                                    </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="mobile_menu d-block d-lg-none"></div>
@@ -237,7 +240,7 @@
                                 </a>
                             </div>
                             <p>Selçuk Dst. Iskele St.<br> Kaleici Yatlimani Muratpasa - Antalya <br>
-                                <a href="tel:+905458151618">+90 545 815 1618 - EN,TR </a> <br>
+                                <a href="tel:+905458151618">+90 545 815 1618 - EN, TR </a> <br>
                                 <a href="tel:+95528823939">+90 552 882 3939 - AR</a> <br>
                                 <a href="tel:+905358147980">+90 535 814 7980 - RU</a><br>
                                 <a href="#">info@traveltourgood.com</a>
@@ -266,7 +269,7 @@
                                 Company
                             </h3>
                             <ul class="links">
-                                <li><a href="#">Home</a></li>
+                                <li><a href="index.html">Home</a></li>
                                 <li><a href="tours.html">Tours</a></li>
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="contact.html"> Contact</a></li>
@@ -360,54 +363,73 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <div class="serch_form">
             <div class="d-flex m-auto justify-content-between">
                 <div>
-                    <img href='#' class="language" src="img/language/en/english.png" alt="">
-                    <a href="#">English</a>
+                    <a href="#" onclick="enTranslate();return false;" title="English">
+                        <img href='#' class='language' href='#' src="img/language/en/english.png" alt="">
+                        English
+                    </a>
                 </div>
                 <div>
-                    <img href='tr/index.html' class="language" src="img/language/tr/turkish.png" alt="">
-                    <a href="tr/index.html">Turkish</a>
+                    <a href="#" onclick="trTranslate();return false;" title="Turkish">
+                        <img href='#' class='language' href='#' src="img/language/tr/turkish.png" alt="">
+                        Turkish
+                    </a>
                 </div>
                 <div>
-                    <img href='ru/index.html' class="language" src="img/language/ru/russian.png" alt="">
-                    <a href="ru/index.html">Russian</a>
+                    <a href="#" onclick="ruTranslate();return false;" title="Russian">
+                        <img href='#' class='language' href='#' src="img/language/ru/russian.png" alt="">
+                        Russian
+                    </a>
                 </div>
                 <div>
-                    <img href='ar/index.html' class="language" src="img/language/ar/arabic.png" alt="">
-                    <a href="ru/index.html">Arabic</a>
+                    <a href="#" onclick="arTranslate();return false;" title="Arabic">
+                        <img href='#' class='language' href='#' src="img/language/ar/arabic.png" alt="">
+                        Arabic
+                    </a>
                 </div>
             </div>
+            <script type="text/javascript" src="js/language.js"></script>
+            
+
         </div>
       </div>
     </div>
   </div>
+    <!-- link that opens popup -->
+<!--     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
 
-        <!-- JS here -->
-        <script src="js/vendors/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/isotope.pkgd.min.js"></script>
-        <script src="js/ajax-form.js"></script>
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/jquery.counterup.min.js"></script>
-        <script src="js/scrollIt.js"></script>
-        <script src="js/jquery.scrollUp.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/nice-select.min.js"></script>
-        <script src="js/jquery.slicknav.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/gijgo.min.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/script.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script> -->
+    <!-- JS here -->
+    <script src="js/vendors/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/9082e43843.js" crossorigin="anonymous"></script>
 
-        <!--contact js-->
-        <script src="js/contact.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
     
-        <script src="js/main.js"></script>
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+
+
+    <script src="js/main.js"></script>
     <script>
         $('#datepicker').datepicker({
             iconsLibrary: 'fontawesome',
